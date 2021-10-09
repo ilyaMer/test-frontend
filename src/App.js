@@ -6,7 +6,7 @@ function App() {
     console.log(`test+++++A+`);
 
     axios
-      .post(`http://localhost:8080/deploydemo/api/v1/test-properties`)
+      .post(`http://localhost:3500`)
       .then((res) => {
         console.log(res);
         console.log(res.data);
