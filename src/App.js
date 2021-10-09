@@ -3,8 +3,10 @@ import axios from "axios";
 
 function App() {
   const test = async () => {
+    console.log(`test+++++A+`);
+
     axios
-      .post(`https://jsonplaceholder.typicode.com/users`)
+      .post(`http://localhost:8080/deploydemo/api/v1/test-properties`)
       .then((res) => {
         console.log(res);
         console.log(res.data);
