@@ -6,7 +6,7 @@ function App() {
     console.log(`test+++++A+`);
 
     axios
-      .post(`http://127.0.0.1:3500`)
+      .post(`http://77.222.63.132:3500/`)
       .then((res) => {
         console.log(res);
         console.log(res.data);
