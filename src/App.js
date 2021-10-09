@@ -11,6 +11,7 @@ function App() {
     await fetch(`http://localhost:8080/deploydemo/api/v1/test-properties`, {
       method: "POST",
       headers: headers,
+      credentials: "include",
       //   body: JSON.stringify({
       //     nid: props.nid,
       //     parent: props.messageId,
