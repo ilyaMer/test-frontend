@@ -20,7 +20,7 @@ function App() {
       "Access-Control-Allow-Origin": "*",
     };
     console.log(`test+++++`);
-    await fetch(`http://localhost:8080/deploydemo/api/v1/test-properties`, {
+    await fetch(`http://localhost:3500`, {
       mode: "cors",
       method: "POST",
       headers: headers,
