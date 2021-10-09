@@ -4,10 +4,10 @@ function App() {
   const test = async () => {
     const headers = {
       "Content-Type": "application/json;charset=utf-8",
-      "Access-Control-Allow-Origin": "http://77.222.63.132:4000/",
+      "Access-Control-Allow-Origin": "http://localhost:4000",
     };
 
-    console.log(`test+`);
+    console.log(`test++`);
 
     await fetch(`http://localhost:8080/deploydemo/api/v1/test-properties`, {
       method: "POST",
